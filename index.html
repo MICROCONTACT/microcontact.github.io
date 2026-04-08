@@ -1,247 +1,87 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Micro Contact</title>
+    <title>MICRO CONTACT</title>
     <link rel="manifest" href="/manifest.json" />
     <meta name="generator" content="Etherpad"/>
     <meta name="author" content="Etherpad"/>
     <meta name="changedby" content="Etherpad"/>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        ol {
-            counter-reset: item;
-        }
-
-        ol > li {
-            counter-increment: item;
-        }
-
-        ol ol > li {
-            display: block;
-        }
-
-        ol > li {
-            display: block;
-        }
-
-        ol > li:before {
-            content: counters(item, ".") ". ";
-        }
-
-        ol ol > li:before {
-            content: counters(item, ".") ". ";
-            margin-left: -20px;
-        }
-
-        ul.indent {
-            list-style-type: none;
-            margin: 0;        /* supprime la marge verticale du bloc ul */
-            padding-left: 2em;
-        }
-
-        body {
-            font-family: 'Courier New', Courier, monospace;
-            background-color: #010029ce;
-            color: #90ee90;
-            line-height: 1.3;
-            word-spacing: -0.3em;
-        }
-
-        u {
-    text-decoration: none;
-    border-bottom: 0.5px solid #90ee90;  /* épaisseur et couleur */
-    padding-bottom: 0px;               /* distance entre le texte et le trait */
-}
-
-        h1 { font-size: 2.5em; }
-        h2 { font-size: 1.8em; }
-        h3 { font-size: 1.5em; }
-        h4 { font-size: 1.2em; }
-        code { font-family: RobotoMono; }
-
-        [data-color="black"], .color\:black { color: rgb(110, 255, 183); }
-        [data-color="red"], .color\:red { color: red; }
-        [data-color="green"], .color\:green { color: green; }
-        [data-color="blue"], .color\:blue { color: blue; }
-        [data-color="yellow"], .color\:yellow { color: yellow; }
-        [data-color="orange"], .color\:orange { color: orange; }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <span class="color:black">M I C R O C O N T A C T # 3</span><br>
     <span class="color:black">RENCONTRES DE LUTHERIE SAUVAGE</span><br>
     <span class="color:black">SAILLANS 8·9·10 MAI 2026</span><br><br>
 
-    <span class="color:black">ACQ TÂZ | ALEXIS MALBERT | ARACHNOPHONE | À LA LUNE DU JOURNAL | ASTRAL ARDECHX | ANDY GUHL | ARNICA MONTANA | AUTOGRATT | BALIN BALAN | BATTLE BREAKCORE | BEAU BRUIT | BIPTUNE | CANTINE ORCHESTRA | CARTE SONORE | COOKIE COLLECTIVE | CUCU-LUTHERIE | DARK CLIMATE | DIOS | DON QUI FLOTTE | EAT RABBIT | ÉRIK M | GALETTES NOIZES | GÉNÉRATEUR DE PERCUSSION | GSPMT | GROSSE CAISSE | JB DEUTR | KARA-HACKÉ | LA MEUTE | LA PETITE BOÎTE | LA VOIX DE SON FANTÔME | LA VIELLE À ROUCHON | LES AMIS NOS MORTS | LASERGAME | LÉA LAIGNEL | LECTEUR DE PIZZA | LSDJ | MÉLANIE MÉTIER | NO INPUT | NOISECORN | NYET NYET NYET | OBSIDIENNE | PARASITE PARK | PARÉÏDOLIE | PETIT NUAGE | PHONORESCENCE | POMPE IT UP ! | PRIMITIF | RADIO SAINT FÉRÉOL | RELIURE D'ONDES | RÉMY MALLARD | ROMAIN VASSET | RESSAC | SERPENT NU | SÉRIGRAPHIE SONORE | SIGMA | SONIC BILLES | VENTILORG | WINDOWS 93 | ZAP ORCHESTRA | ZINE PHONIQUE</span><br>
+    <span class="color:black">
+        <a class="nom" href="toutelaprogendetail.html#a-la-lune-du-journal" target="_blank">À LA LUNE DU JOURNAL</a> |
+        <a class="nom" href="toutelaprogendetail.html#acq-taz" target="_blank">ACQ TÄZ</a> |
+        <a class="nom" href="toutelaprogendetail.html#alexis-malbert" target="_blank">ALEXIS MALBERT</a> |
+        <a class="nom" href="toutelaprogendetail.html#andy-guhl" target="_blank">ANDY GUHL</a> |    
+        <a class="nom" href="toutelaprogendetail.html#arachnophone" target="_blank">ARACHNOPHONE</a> |
+        <a class="nom" href="toutelaprogendetail.html#arnica-montana" target="_blank">ARNICA MONTANA</a> |    
+        <a class="nom" href="toutelaprogendetail.html#astral-ardechx" target="_blank">ASTRAL ARDECHX</a> |
+        <a class="nom" href="toutelaprogendetail.html#autogratt" target="_blank">AUTOGRATT</a> |
+        <a class="nom" href="toutelaprogendetail.html#balin-balan" target="_blank">BALIN BALAN</a> |
+        <a class="nom" href="toutelaprogendetail.html#battle-breakcore" target="_blank">BATTLE BREAKCORE</a> |
+        <a class="nom" href="toutelaprogendetail.html#beau-bruit" target="_blank">BEAU BRUIT</a> |
+        <a class="nom" href="toutelaprogendetail.html#bios" target="_blank">BIOS</a> |        
+        <a class="nom" href="toutelaprogendetail.html#biptune" target="_blank">BIPTUNE</a> |
+        <a class="nom" href="ateliers.html#cantine-orchestra" target="_blank">CANTINE ORCHESTRA</a> |
+        <a class="nom" href="toutelaprogendetail.html#carte-sonore" target="_blank">CARTE SONORE</a> |
+        <a class="nom" href="toutelaprogendetail.html#cookie-collective" target="_blank">COOKIE COLLECTIVE</a> |
+        <a class="nom" href="ateliers.html#cucu-lutherie" target="_blank">CUCU-LUTHERIE</a> |
+        <a class="nom" href="toutelaprogendetail.html#dark-climate" target="_blank">DARK CLIMATE</a> |
+        <a class="nom" href="toutelaprogendetail.html#don-qui-flotte" target="_blank">DON QUI FLOTTE</a> |
+        <a class="nom" href="toutelaprogendetail.html#eat-rabbit" target="_blank">EAT RABBIT</a> |
+        <a class="nom" href="ateliers.html#electronique" target="_blank"> ÉLECTRONIQUE </a> |
+        <a class="nom" href="toutelaprogendetail.html#erik-m" target="_blank">ÉRIK M</a> |
+        <a class="nom" href="toutelaprogendetail.html#galettes-noizes" target="_blank">GALETTES NOIZES</a> |
+        <a class="nom" href="toutelaprogendetail.html#gspmt" target="_blank">GSPMT</a> |
+        <a class="nom" href="toutelaprogendetail.html#grosse-caisse" target="_blank">GROSSE CAISSE</a> |
+        <a class="nom" href="toutelaprogendetail.html#jb-deutr" target="_blank">JB DEUTR</a> |
+        <a class="nom" href="toutelaprogendetail.html#kara-hacke" target="_blank">KARA-HACKÉ</a> |
+        <a class="nom" href="toutelaprogendetail.html#la-meute" target="_blank">LA MEUTE</a> |
+        <a class="nom" href="ateliers.html#la-petite-boite" target="_blank">LA PETITE BOÎTE</a> |
+        <a class="nom" href="toutelaprogendetail.html#la-voix-de-son-fantome" target="_blank">LA VOIX DE SON FANTÔME</a> |
+        <a class="nom" href="toutelaprogendetail.html#les-amis-nos-morts" target="_blank">LES AMIS NOS MORTS</a> |
+        <a class="nom" href="toutelaprogendetail.html#lasergame" target="_blank">LASERGAME</a> |
+        <a class="nom" href="toutelaprogendetail.html#lea-laignel" target="_blank">LÉA LAIGNEL</a> |
+        <a class="nom" href="toutelaprogendetail.html#lecteur-de-pizza" target="_blank">LECTEUR DE PIZZA</a> |
+        <a class="nom" href="ateliers.html#lsdj" target="_blank">LSDJ</a> |
+        <a class="nom" href="toutelaprogendetail.html#melanie-metier" target="_blank">MÉLANIE MÉTIER</a> |
+        <a class="nom" href="ateliers.html#no-input" target="_blank">NO INPUT</a> |
+        <a class="nom" href="toutelaprogendetail.html#noisecorn" target="_blank">NOISECORN</a> |
+        <a class="nom" href="toutelaprogendetail.html#nyet-nyet-nyet" target="_blank">NYET NYET NYET</a> |
+        <a class="nom" href="ateliers.html#obsidienne" target="_blank">OBSIDIENNE</a> |
+        <a class="nom" href="ateliers.html#oiseaux-rombes" target="_blank">OISEAUX-ROMBES</a> |        
+        <a class="nom" href="toutelaprogendetail.html#parasite-park" target="_blank">PARASITE PARK</a> |
+        <a class="nom" href="toutelaprogendetail.html#pareidolie" target="_blank">PARÉÏDOLIE</a> |
+        <a class="nom" href="toutelaprogendetail.html#petit-nuage" target="_blank">PETIT NUAGE</a> |
+        <a class="nom" href="toutelaprogendetail.html#phonorescence" target="_blank">PHONORESCENCE</a> |
+        <a class="nom" href="toutelaprogendetail.html#pompe-it-up" target="_blank">POMPE IT UP !</a> |
+        <a class="nom" href="toutelaprogendetail.html#primitif" target="_blank">PRIMITIF</a> |
+        <a class="nom" href="toutelaprogendetail.html#radio-saint-fereol" target="_blank">RADIO SAINT FÉRÉOL</a> |
+        <a class="nom" href="toutelaprogendetail.html#reliure-d-ondes" target="_blank">RELIURE D'ONDES</a> |
+        <a class="nom" href="toutelaprogendetail.html#remy-mallard" target="_blank">RÉMY MALLARD</a> |
+        <a class="nom" href="toutelaprogendetail.html#romain-vasset" target="_blank">ROMAIN VASSET</a> |
+        <a class="nom" href="toutelaprogendetail.html#ressac" target="_blank">RESSAC</a> |
+        <a class="nom" href="toutelaprogendetail.html#serpent-nu" target="_blank">SERPENT NU</a> |
+        <a class="nom" href="toutelaprogendetail.html#serigraphie-sonore" target="_blank">SÉRIGRAPHIE SONORE</a> |
+        <a class="nom" href="toutelaprogendetail.html#sigma" target="_blank">SIGMA</a> |
+        <a class="nom" href="ateliers.html#sonic-billes" target="_blank">SONIC BILLES</a> |
+        <a class="nom" href="toutelaprogendetail.html#ventilorg" target="_blank">VENTILORG</a> |
+        <a class="nom" href="toutelaprogendetail.html#windows-93" target="_blank">WINDOWS 93</a> |
+        <a class="nom" href="toutelaprogendetail.html#zap-orchestra" target="_blank">ZAP ORCHESTRA</a> |
+        <a class="nom" href="ateliers.html#zine-phonique" target="_blank">ZINE PHONIQUE</a>
+    </span><br>
     <span class="color:black">&nbsp;</span><br>
 
-    <span class="color:black">PROGRAMME</span><br><br>
-
-    <span class="color:black">V E N D R E D I&nbsp;&nbsp; 0 8</span><br><br>
-
-    <span class="color:black">☼ JOURNÉE</span><br>
-    <span class="color:black">15:00 <u>La Loco&nbsp;</u></span><br>
-    <ul class="indent">
-        <li><span class="color:black">Atelier [ NO INPUT  ] Larsen de table &gt; 18:00&nbsp;</span></li>
-        <li><span class="color:black"><em>—sur inscription— réservations au 06 88 94 65 20</em></span></li>
-    </ul>
-    <span class="color:black">17:00 <u>La Loco</u></span><br>
-    <ul class="indent">
-        <li><span class="color:black">Film [ DARK CLIMATE ] de Laurent Tixador (15min) </span></li>
-    </ul>
-    <span class="color:black">18:00 <u>Galerie les Arts de la Daraize</u></span><br>
-    <ul class="indent">
-        <li><span class="color:black">Vernissage   [ BALIN BALAN ] Expo cloches &amp; sonnailles</span></li>
-    </ul>
-    <br>
-    <span class="color:black">☾ SOIRÉE&nbsp;&nbsp;</span><br>
-    <span class="color:black">19:00 &gt; 00:00<u> Le Temple</u>&nbsp;&nbsp;</span><br>
-    <ul class="indent">
-        <li><span class="color:black"><em>S&nbsp; T&nbsp; A&nbsp; N&nbsp; D&nbsp; S</em></span></li>
-        <li><span class="color:black">19:00 [ ZAP ORCHESTRA ]  Orchestre de télécommandes</span></li>
-        <li><span class="color:black">20:45 [ NOISECORN ] Pop-corn bruististe</span></li>
-        <li><span class="color:black">22:00 [ LASER GAME ] Distordre un laser avec du son</span></li>
-        <li><span class="color:black"><em>C&nbsp; O&nbsp; N&nbsp; C&nbsp; E&nbsp; R&nbsp; T&nbsp; S&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; A&nbsp; U&nbsp; D&nbsp; I&nbsp; O&nbsp; V&nbsp; I&nbsp; S&nbsp; U&nbsp; E&nbsp; L&nbsp; S</em></span></li>
-        <li><span class="color:black">20:00 [ PHONORESCENCE ] Performance sur SYNKIE par Michael Egger (1h)</span></li>
-        <li><span class="color:black">21:00 [ ANDY GUHL &amp; ÉRIC M ] Performance Audio Visuelle (1h)  </span></li>
-        <li><span class="color:black">22:00 [ COOKIE COLLECTIVE ] Live coding (1h)</span></li>
-        <li><span class="color:black">23:00 [ WINDOWS 93 ] présentation de la v3.0 (1h)  </span></li>
-    </ul>
-    <span class="color:black">00:00<u> Secret Spot</u>&nbsp;</span><br>
-    <ul class="indent">
-        <li><span class="color:black">[  MARCHE NOCTURNE ]&nbsp;&nbsp;</span></li>
-        <li><span class="color:black">00:30 [ À LA LUNE DU JOURNAL ] Spectacle/conférence sous les étoiles </span></li>
-    </ul>
-<br>
-    <span class="color:black">S A M E D I&nbsp;&nbsp; 0 9</span><br><br>
-    <span class="color:black">☼&nbsp;&nbsp; JOURNÉE</span><br>
-    <span class="color:black">9:00 &gt; 18:00<u> Les berges de Drôme</u>/ pluie : <u>salle des fêtes</u>&nbsp;</span><br>
-    <ul class="indent">
-        <li><span class="color:black">—</span></li>
-        <li><span class="color:black"><em>F&nbsp; O&nbsp; I&nbsp; R&nbsp; E&nbsp;&nbsp;&nbsp;&nbsp; À&nbsp;&nbsp;&nbsp;&nbsp; L&nbsp; '&nbsp;&nbsp; I&nbsp; N&nbsp; S&nbsp; T&nbsp; R&nbsp; U&nbsp; M&nbsp; E&nbsp; N&nbsp; T&nbsp;&nbsp;&nbsp; B&nbsp; R&nbsp; I&nbsp; C&nbsp; O&nbsp; L&nbsp; É</em>&nbsp;&nbsp;</span></li>
-        <li><span class="color:black">[ RADIO St FERRÉOL ] Live toute la journée</span></li>
-        <li><span class="color:black">[ CARTE SONORE A.T.E ] Par les élèves de l’école primaire</span></li>
-        <li><span class="color:black">[ JB DEUTR ] Acousmonium de fortune et instruments  </span></li>
-        <li><span class="color:black">[ LES AMIS NOS MORTS ] Automate interactif corbeau  </span></li>
-        <li><span class="color:black">[ COOKIES COLLECTIF ] Installations</span></li>
-        <li><span class="color:black">[ LA VIELLE À ROUCHON ] Vielle à roue motorisée</span></li>
-        <li><span class="color:black">[ ARACHNOPHONE 3.0 ] Performance filaire</span></li>
-        <li><span class="color:black">[ LEA LAIGNEL ] Lutherie Sauvage</span></li>
-        <li><span class="color:black">[ LA MEUTE ] Automates qui dansent et dessinent</span></li>
-        <li><span class="color:black">[ POMPES IT UP ] Chaussures sonores  </span></li>
-        <li><span class="color:black">[ BIPTUNE ] Séquenceur à code-barres  </span></li>
-        <li><span class="color:black">[ PRIMITIF ] Sanzas, Cloches, Lamellophones mécanisées</span></li>
-        <li><span class="color:black">[ VENTILORG ] 36 Ventilateurs</span></li>
-        <li><span class="color:black">[ PARÉDOLIE ] Boîte à rythmes électro-mécaniques</span></li>
-        <li><span class="color:black">[ JUNGLESPEEDCORE ] Jeu de plateau augmenté</span></li>
-        <li><span class="color:black">[ BATTLE BREAKCORE ] Jeu vidéo musical</span></li>
-        <li><span class="color:black">[ AUTOGRATTE ] Guitare Synthé</span></li>
-        <li><span class="color:black">[ RELIURES D'ONDES ] Bibliothèque sonore</span></li>
-        <li><span class="color:black">[ SÉRIGRAPHIE ] Stand de sérigraphie par Mag et Aline</span></li>
-        <li><span class="color:black"><em>La foire à l’instrument bricolé est ouverte à qui veut.</em></span></li>
-        <li><span class="color:black"><em>Pour être ajouté à la programmation : 06 86 58 45 93&nbsp;</em></span></li>
-        <li><span class="color:black">—</span></li>
-        <li><span class="color:black"><em>A T E L I E R S —sur inscription— réservations au 06 88 94 65 20</em></span></li>
-        <li><span class="color:black">10:00 &gt; 13:00 [ CUCU-LUTHERIE] Instruments cougourdonnesques</span></li>
-        <li><span class="color:black">10:00 &gt; 13:00 [ LA PETITE BOÎTE] Prototypage d’une boîte à rythmes Lo-Fi avec Arduino</span></li>
-        <li><span class="color:black">10:00 &gt; 11:30 [ CANTINE ORCHESTRA ] Expérimentations sonores&nbsp;</span></li>
-        <li><span class="color:black">14:00 &gt; 18:00 [ ZINE PHONIQUE ] Réalisation d’un petit fanzine</span></li>
-        <li><span class="color:black">14:00 &gt; 16:00 [ OISEAUX-ROMBES ] Fabrication de rombes en canne de provence&nbsp;</span></li>
-        <li><span class="color:black">14:00 &gt; 18:00 [ GÉNÉRATEUR DE PERCUSSION ] avec Rémy Mallard (du site Sonelec)</span></li>
-        <li><span class="color:black">14:00 &gt; 18:00 [ OBSIDIENNE] Sillicium de l’âge de pierre avec Andy Guhl</span></li>
-        <li><span class="color:black">14:00 &gt; 18:00 [ LSDJ ] Apprendre à composer de la musique sur une Gameboy</span></li>
-        <li><span class="color:black">16:00 &gt; 18:00 [ SONIC BILLES !  ] Circuit de bille sonore&nbsp;</span></li>
-        <li><span class="color:black"><em>Certains ateliers sont sur inscription — réservations au 06 88 94 65 20</em></span></li>
-        <li><span class="color:black">—</span></li>
-        <li><span class="color:black"><em>R E S T A U R A T I O N —sur place (pas cher)</em></span></li>
-        <li><span class="color:black">10:00 &gt; 14:00 – [ LA PLAGE ] Galettes sonores !</span></li>
-    </ul>
-<br>
-    <span class="color:black">☼ JOURNÉE <u>Village de Saillans</u></span><br>
-    <span class="color:black">11:00 <u>Place de la Daraize</u></span><br>
-    <ul class="indent">
-        <li><span class="color:black">Performance [ DRONE ACOUSTIQUE] Drone avec petits orgues Bontempi</span></li>
-    </ul>
-    <span class="color:black">11:00 &gt; 18:00 <u>Galerie les Arts de la Daraize</u>&nbsp;</span><br>
-    <ul class="indent">
-        <li><span class="color:black">Exposition [ BALIN BALAN ] cloches &amp; sonnailles</span></li>
-    </ul>
-    <span class="color:black">15:00 <u>Place de la Daraize</u>&nbsp;</span><br>
-    <ul class="indent">
-        <li><span class="color:black">Conférence [ BEAU BRUIT ] Iris Kaufmann. Cloches et sonnailles</span></li>
-    </ul>
-    <span class="color:black">17:00 <u>Bar Le 14,5</u>&nbsp;</span><br>
-    <ul class="indent">
-        <li><span class="color:black">Concert [ ACQ TÂZ ] Larsen fût de batterie</span></li>
-    </ul>
-<br>
-    <span class="color:black">☾ SOIRÉE&nbsp; <u>Berges de Drôme</u> / pluie : salle des fêtes&nbsp;</span><br>
-    <ul class="indent"></ul>
-    <span class="color:black"><em>R E S T A U R A T I O N / sur place (pas cher)</em></span><br>
-    <ul class="indent">
-        <li><span class="color:black">19:00 &gt; 22:00 – [ LA PLAGE ] Pizza : fais sonner ta Pizz !</span></li>
-    </ul>
-
-    <span class="color:black"><em>C&nbsp; O&nbsp; N&nbsp; C&nbsp; E&nbsp; R&nbsp; T&nbsp; S</em> &nbsp;</span><br>
-    <ul class="indent">
-        <li><span class="color:black">19:00 [ NYET NYET NYET ] Collages aux platines en trio</span></li>
-        <li><span class="color:black">20:00 [ ARNICA MONTANA ] Live électronique sur Synthétiseur artisanal&nbsp;</span></li>
-        <li><span class="color:black">21:00 [ SERPENT NU ] Musique improvisée expé</span></li>
-        <li><span class="color:black">22:00 [ PETIT NUAGE ] Musique TDAH&nbsp;</span></li>
-        <li><span class="color:black">23:00 [ EAT RABIT ] Live GameBoy&nbsp;</span></li>
-    </ul>
-<br>
-    <span class="color:black">D I M A N C H E&nbsp;&nbsp; 1 0</span><br><br>
-    <span class="color:black">☼&nbsp;&nbsp; JOURNÉE</span><br>
-    <span class="color:black">10:00 <u>Place de la Daraize</u> &nbsp;&nbsp;</span><br>
-    <ul class="indent">
-        <li><span class="color:black">Concert [ BIOS ] Improvisation Saxophone</span></li>
-    </ul>
-    <span class="color:black">10:00 &gt; 15:30 <u>Galerie les Arts de la Daraize</u>&nbsp;</span><br>
-    <ul class="indent">
-        <li><span class="color:black">Exposition [ BALIN BALAN ] cloches &amp; sonnailles</span></li>
-    </ul>
-    <span class="color:black">10:30 &gt; 12:00 <u>Place de la Daraize &gt; Place Centrale</u></span><br>
-    <ul class="indent">
-        <li><span class="color:black">Concert [ GSPMT] Déambulation musicale ambient exp.</span></li>
-    </ul>
-    <span class="color:black">11:00 <u>Place Centrale</u>&nbsp;</span><br>
-    <ul class="indent">
-        <li><span class="color:black">Concert [ GROSSE CAISSE ]&nbsp; Revox et cuivres</span></li>
-    </ul>
-    <span class="color:black">12:00 <u>Place de la République</u></span><br>
-    <ul class="indent">
-        <li><span class="color:black">Pause au marché de Saillans</span></li>
-    </ul>
-    <span class="color:black">14:00 <u>Place Centrale</u></span><br>
-    <ul class="indent">
-        <li><span class="color:black">Concert [ RESSAC ]&nbsp; Lutherie sauvage&nbsp;</span></li>
-    </ul>
-    <span class="color:black">15:00 <u>Place de la Daraize</u></span><br>
-    <ul class="indent">
-        <li><span class="color:black">Performance / installation [ CLEPSYDRE ] Séquenceur à eau</span></li>
-    </ul>
-    <span class="color:black">15:30 <u>Galerie les Arts de la Daraize &gt; Bords du Rieussec</u></span><br>
-    <ul class="indent">
-        <li><span class="color:black">Performance [ BALIN BALAN ] Troupeau humain / Sonnailles&nbsp;</span></li>
-    </ul>
-    <span class="color:black">15:30 <u>Bords du Rieussec</u></span><br>
-    <ul class="indent">
-        <li><span class="color:black">15:30 &gt; 16:00 Installation [ DON QUI FLOTTE ]&nbsp; Amphibie&nbsp;</span></li>
-    </ul>
-    <span class="color:black">16:00 <u>Plus loin sur les Berges de Drôme...</u></span><br>
-    <ul class="indent">
-        <li><span class="color:black">16:00 &gt; 17:00 Écoute [ SIGMA ]&nbsp;</span></li>
-        <li><span class="color:black">17:00 &gt; 18:00 Restitution [ MÉLANIE MÉTIER, ROMAIN VASSET &amp; Cie ] Drône / Oiseaux-rhombes&nbsp; 30mn</span></li>
-        <li><span class="color:black">18:00 &gt; 19:00 DJ set [ LA VOIX DE SON FANTÔME ] Gramophones&nbsp;</span></li>
-        <li><span class="color:black">19:00 Concert [ ASTRAL ARDECHX ] Appropriation culturelle (1h)&nbsp;</span></li>
-    </ul>
-    <span class="color:black">20:00 <u>La Loco</u>&nbsp;</span><br>
-    <ul class="indent">
-        <li><span class="color:black">Final [ KARA-HACKÉ ] Karaoké troll (1h)</span></li>
-    </ul>
-
-    <div id="comments"></div>
+    <span class="color:black"><a class="sommaire" href="programme.html">PROGRAMME</a></span><br> 
+    <span class="color:black"><a class="sommaire" href="infos-pratiques.html">EDITO / INFOS PRATIQUES</a></span><br>
+    <span class="color:black"><a class="sommaire" href="ateliers.html">ATELIERS</a></span><br>
+    <span class="color:black"><a class="sommaire" href="toutelaprogendetail.html">TOUTE LA PROG EN DÉTAIL</a></span><br>
 </body>
 </html>
