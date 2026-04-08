@@ -1,0 +1,101 @@
+
+        @keyframes colorshift {
+            0%   { color: rgb(110, 255, 219); }
+            25%  { color: rgb(131, 255, 120); }
+            50%  { color: rgb(230, 255, 142); }
+            75%  { color: rgb(125, 255, 113); }
+            100% { color: rgb(110, 255, 219); }
+        }
+
+        ol { counter-reset: item; }
+        ol > li { counter-increment: item; display: block; }
+        ol ol > li { display: block; }
+        ol > li:before { content: counters(item, ".") ". "; }
+        ol ol > li:before { content: counters(item, ".") ". "; margin-left: -20px; }
+
+        ul.indent {
+            list-style-type: none;
+            margin: 0;
+            padding-left: 2em;
+        }
+
+        ul.indent > li {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #01003dce;
+            line-height: 1.3;
+            word-spacing: -0.3em;
+            animation: colorshift 4s ease-in-out infinite;
+            max-width: 800px;        /* ajuste selon ton goût */
+            margin: 0 auto;          /* centre la page */
+            padding: 2em;
+        }
+
+        u {
+            text-decoration: none;
+            border-bottom: 0.5px solid currentColor;
+            padding-bottom: 0px;
+        }
+
+        h1 { font-size: 2.5em; }
+        h2 { font-size: 1.8em; }
+        h3 { font-size: 1.5em; }
+        h4 { font-size: 1.2em; }
+        code { font-family: RobotoMono; }
+
+        [data-color="black"], .color\:black { color: inherit; }
+        [data-color="red"], .color\:red { color: red; }
+        [data-color="green"], .color\:green { color: green; }
+        [data-color="blue"], .color\:blue { color: blue; }
+        [data-color="yellow"], .color\:yellow { color: yellow; }
+        [data-color="orange"], .color\:orange { color: orange; }
+
+        a.nom, a.sommaire {
+            color: inherit;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        a.sommaire {
+            border-bottom: 0.5px solid currentColor;
+        }
+
+        a.nom:hover, a.sommaire:hover {
+            color: #010029;
+            background-color: rgb(110, 255, 183);
+            filter: none;
+        }
+
+        .atelier img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0.8em 0;
+}
+
+.atelier .liens a {
+    color: inherit;
+    text-decoration: none;
+    display: inline;
+}
+
+.atelier .liens a:hover {
+    color: #010029;
+    background-color: rgb(110, 255, 183);
+}
+
+/* CARTE */
+.map-container {
+  display:flex;
+  justify-content:center;
+}
+
+.map {
+  width:100%;
+  max-width:1000px;
+}
